@@ -34,7 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: echo "yaya"
+      - run: echo "yaya!!"
   deploy:
     docker:
       # specify the version you desire here
